@@ -1,0 +1,1 @@
+docker build -f Dockerfile.multistage -t gs-ping-docker-test --progress plain --no-cache --target run-test-stage .
